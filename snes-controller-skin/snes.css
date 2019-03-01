@@ -1,13 +1,13 @@
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-        background: url(snes-assets/base.png); 
+        background: url(snes-assets/base.png);
     height: 526px;
     width: 1043px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
     background: url(ps3-assets/base-disconnect.png);
 }
-/* This hides the controller's button when disconnected so only the background image remains */ 
+/* This hides the controller's button when disconnected so only the background image remains */
 .custom.disconnected div {
     display: none;
 }
@@ -25,16 +25,16 @@
 }
 /* The left and right classes below are used to position the triggers
 within the div they're contained in. Since their positions is realtive
-to the size of the parent element, we simply resize the parent element 
+to the size of the parent element, we simply resize the parent element
 above to achieve the desired position. */
-.custom .trigger.left{ 
+.custom .trigger.left{
     float: left;
 }
 .custom .trigger.right{
     float: right;
 }
 
-/* This is to size and position the containing div for the 
+/* This is to size and position the containing div for the
 start and select buttons. */
 .custom .arrows{
     position: absolute;
@@ -107,8 +107,8 @@ start and select buttons. */
     opacity: 0;
 }
 .custom .face.left, .custom .face.right, .custom .face.up, .custom .face.down{
-    width: 42px;
-    height: 36px;
+    width: 52px;
+    height: 46px;
 }
 .custom .face.up{
     left: 71px;
