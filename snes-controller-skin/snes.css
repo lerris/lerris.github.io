@@ -107,26 +107,26 @@ start and select buttons. */
     opacity: 0;
 }
 .custom .face.left, .custom .face.right, .custom .face.up, .custom .face.down{
-    width: 52px;
-    height: 46px;
+    width: 42px;
+    height: 36px;
 }
 .custom .face.up{
-    left: 68px;
-    top: 12px;
+    left: 71px;
+    top: 10px;
     background-position-x: -44px;
 }
 .custom .face.down{
-    left: 74px;
-    top: 132px;
+    left: 71px;
+    top: 130px;
     background-position-x: -87px;
 }
 .custom .face.left{
-    top: 66px;
-    left: 8px;
+    top: 69px;
+    left: 10px;
 }
 .custom .face.right{
-    top: 66px;
-    left: 128px;
+    top: 69px;
+    left: 125px;
     background-position-x: -122px;
 }
 .custom .face.pressed{
