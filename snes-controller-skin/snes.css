@@ -111,22 +111,22 @@ start and select buttons. */
     height: 46px;
 }
 .custom .face.up{
-    left: 71px;
-    top: 10px;
+    left: 68px;
+    top: 12px;
     background-position-x: -44px;
 }
 .custom .face.down{
-    left: 71px;
-    top: 130px;
+    left: 74px;
+    top: 132px;
     background-position-x: -87px;
 }
 .custom .face.left{
-    top: 69px;
-    left: 10px;
+    top: 66px;
+    left: 8px;
 }
 .custom .face.right{
-    top: 69px;
-    left: 125px;
+    top: 66px;
+    left: 128px;
     background-position-x: -122px;
 }
 .custom .face.pressed{
